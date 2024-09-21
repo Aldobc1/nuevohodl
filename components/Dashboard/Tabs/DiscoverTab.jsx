@@ -78,7 +78,7 @@ const TEST_DATA = [
 ]
 
 const DiscoverTab = () => {
-  const isTest = false;
+  const isTest = true;
   const [videos, setVideos] = useState([]);
   const [loading, setLoading] = useState(false);
   const [currentVideoId, setCurrentVideoId] = useState(null);
